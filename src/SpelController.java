@@ -37,10 +37,6 @@ public class SpelController {
         System.out.println("Wrong input, try again");
     }
 
-    private static void randomComputerChoice() {
-        int choice = (int) (Math.random() * 3 + 1);
-    }
-
     private static String translate(int value) {
         return new String[]{"Rock", "Paper", "Scissors"}[value - 1];
     }
